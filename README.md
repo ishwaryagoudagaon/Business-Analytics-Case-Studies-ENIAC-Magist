@@ -1,158 +1,80 @@
-# Eniac-Magist Partnership Analysis
+Eniac–Magist Partnership Analysis
 
-> **Should Eniac partner with Magist to enter the Brazilian market?**
->
-> SQL and Tableau analysis evaluating Magist's product portfolio,
-> pricing, and delivery performance to support Eniac's expansion decision.
+Overview
 
----
+This project analyzes whether Magist, a Brazilian e-commerce marketplace, could be a suitable logistics partner for Eniac.
 
-## 📊 Project Overview
+The analysis focuses on:
 
-Eniac is a Spain-founded e-commerce company specialising in Apple products
-and premium accessories.
+Product categories and technology products
 
-To enter the Brazilian market, Eniac is considering a 3-year partnership
-with Magist, a Brazilian SaaS company providing order management and
-logistics services.
+Product prices and order values
 
-This project analyses Magist's database using SQL and Tableau to evaluate
-product compatibility, pricing, and operational performance.
+Revenue and sales performance
 
----
+Delivery performance
 
-## 🛠️ Tools Used
+Seller and marketplace characteristics
 
-| Tool | Purpose |
-|---|---|
-| MySQL 8.0 | Data exploration and analysis |
-| SQL | Queries, joins, and business metrics |
-| Tableau Public | Interactive dashboards |
-| PowerPoint | Executive presentation |
+Tools
 
----
+MySQL 8.0
 
-## 🗄️ Database
+SQL
 
-| Information | Value |
-|---|---|
-| Country | Brazil |
-| Period | September 2016 – August 2018 |
-| Duration | 25 months |
-| Currency | Euros (€) |
+Tableau Public
 
-### Technology Categories
+PowerPoint
 
-Computers, electronics, telephony, audio, tablets, consoles,
-and other technology-related categories.
+Dataset
 
----
+The project uses the Brazilian E-Commerce Public Dataset by Olist.
 
-# 📈 Key Findings
+Country: Brazil
 
-## 1. Eniac vs Magist Tech
+Dataset period: September 2016 – August 2018
 
-**Comparison Period: April 2017 – March 2018**
+Analysis period: April 2017 – March 2018
 
-| Metric | Eniac | Magist Tech |
-|---|---:|---:|
-| Total Revenue | €14M | €1.24M |
-| Avg Monthly Revenue | €1.17M | €103K |
-| Avg Order Value | €710 | €123.95 |
-| Avg Item Price | €540 | €109.70 |
+Currency: Euro (€)
 
-### Key Insights
+Key Findings
 
-- Magist Tech's average monthly revenue was approximately 9% of Eniac's.
-- Eniac's average item price was approximately 4.9x higher.
-- Eniac's average order value was approximately 5.7x higher.
+Eniac revenue: approximately €14 million
 
----
+Magist technology revenue: approximately €1.24 million
 
-## 2. Technology Share of Magist
+Eniac average order value: approximately €710
 
-| Metric | Value |
-|---|---:|
-| Tech share of orders | ~15% |
-| Tech share of revenue | ~14% |
-| Tech sellers as % of all sellers | ~15.7% |
-| Tech products priced ≥ €500 | ~3% |
+Magist technology average order value: approximately €123.95
 
-Magist operates across a broad range of categories, while technology
-represents a relatively small share of its business.
+Technology products represent approximately 15% of orders
 
----
+Only approximately 3% of technology products cost €500 or more
 
-## 🚚 Operational Performance
+Magist mainly offers lower-priced technology products compared with Eniac’s product range.
 
-The Tableau dashboard analyses:
+Conclusion
 
-- On-time delivery rate.
-- Delivery performance.
-- Customer review scores.
-- Review score distribution.
+Based on the analyzed product mix, pricing, revenue, and delivery indicators:
 
-These metrics help evaluate whether Magist can support Eniac's
-customer experience expectations.
+Do not proceed with the partnership under the analyzed assumptions.
 
----
+This conclusion is based on the available historical data and would require further validation through operational and commercial due diligence.
 
-# 💡 Recommendation
+Project Structure
 
-### Do Not Proceed with the Partnership
-
-Based on the analysed product, pricing, and marketplace data:
-
-- Technology represents only ~15% of Magist's orders.
-- Magist Tech's average item price is €109.70.
-- Only ~3% of Magist Tech products are priced at €500 or more.
-- Magist's marketplace characteristics may not closely align with
-  Eniac's premium technology-focused positioning.
-
-**Eniac should explore alternative Brazilian market-entry channels
-better aligned with its premium product portfolio.**
-
----
-
-## 📊 Tableau Dashboards
-
-### Magist Overview
-Order trends, category distribution, and technology share.
-
-### Magist Marketplace
-Eniac vs Magist Tech pricing comparison.
-
-### Operational Performance
-Delivery performance and customer review analysis.
-
-🔗 [View Tableau Dashboards](https://tinyurl.com/eniacXmagist)
-
----
-
-## 🧠 Skills Demonstrated
-
-**SQL:** Database exploration, joins, aggregation, and business metrics.
-
-**Tableau:** KPI development, visualisation, and dashboard creation.
-
-**Business Analysis:** Product portfolio evaluation, pricing analysis,
-and data-driven recommendations.
-
----
-
-## 📁 Project Structure
-
-```text
-eniac-magist-partnership-analysis/
-│
 ├── README.md
 ├── sql/
 │   ├── magist_datacheck.sql
 │   ├── magist_Delivery.sql
 │   ├── magist_products.sql
 │   └── magist_Sellers.sql
-│
 ├── presentation/
 │   └── Presentation.pptx
-│
 └── tableau/
+    └── README.md
+
+Skills
+
+SQL · Data Analysis · Data Cleaning · Tableau · Business Intelligence · Data Visualization

@@ -16,29 +16,17 @@ performance, products sold, and delivery times.
 Is Magist a good fit for high-end tech products?
 Are orders delivered on time?
 
----
 
-## 🛠️ Tools Used
+## Tools Used
+MySQL 8.0 |Tableau Public | PowerPoint 
 
-| Tool | Purpose |
-|---|---|
-| MySQL 8.0 | Queries, joins, and business metrics |
-| Tableau Public | Interactive dashboards |
-| PowerPoint | Executive presentation |
+## Data available
 
----
+From  September 2016 – August 2018 in Euros
 
-## 🗄️ Database
-
-| Period | September 2016 – August 2018 |
-| Duration | 25 months |
-| Currency | Euros (€) |
-
-#Tableau link
+# Tableau link
 
 🔗 [Change the link ]
-
-
 
 ## 📁 Project Structure
 

@@ -24,10 +24,6 @@ MySQL 8.0 |Tableau Public | PowerPoint
 
 From  September 2016 – August 2018 in Euros
 
-# Tableau link
-
-🔗 [Change the link ]
-
 ## 📁 Project Structure
 
 ```text

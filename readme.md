@@ -20,9 +20,15 @@ Are orders delivered on time?
 ## Tools Used
 MySQL 8.0 |Tableau Public | PowerPoint 
 
-## Data available
+## Data Set
 
-From  September 2016 – August 2018 in Euros
+From  September 2016 – August 2018 ,revenue in Euros
+
+## Key Findings & Results
+- Analyzed Magist’s sellers, products sold, pricing, and delivery performance
+- Evaluated the technology product share of the marketplace
+- Investigated delivery times and operational performance
+- Created Tableau dashboards to communicate business insights
 
 ## 📁 Project Structure
 
@@ -36,7 +42,13 @@ eniac-magist-partnership-analysis/
 │   ├── magist_products.sql
 │   └── magist_Sellers.sql
 │
-├── presentation/
-│   └── Presentation.pptx
+├── Presentation.pptx
+│   
 │
 └── tableau/
+      └── Customer_Map.png
+      └── OrderId_by_month.png
+      └── Sales_ternd.png
+      └── Tech_nonTech_products_Revenue_order_count.png
+      └── order_Id_by_delivery_Time.png
+      └── readme.md
